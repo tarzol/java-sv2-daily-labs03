@@ -19,9 +19,9 @@ public class Mathematics {
     public static void main(String[] args) {
         Mathematics math = new Mathematics();
         Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
-        scan.nextLine();
-        System.out.println("Add meg a vizsgálandó számot: ");
+
+        System.out.println("Enter the possible prime number: ");
+        int number = Integer.parseInt(scan.nextLine());
         boolean isItPrime = math.isPrime(number);
         System.out.println("The number("+number+") is prime? "+isItPrime);
     }

@@ -22,7 +22,5 @@ public class Student {
         student.addStudent("Kis Piroska");
         student.addStudent("KisPiros");
         student.addStudent("Kis Tibor");
-
-
     }
 }

@@ -7,6 +7,6 @@ public class School {
         students.addHeight(170);
         students.addHeight(165);
         students.addHeight(190);
-        System.out.println("Növekvő? "+students.isHeightsIncreasing());
+        System.out.println("Is increasing? "+students.isHeightsIncreasing());
     }
 }

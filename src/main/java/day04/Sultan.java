@@ -7,11 +7,11 @@ public class Sultan {
         Prison prison = new Prison();
         boolean[] openClosed = new boolean[100];
         prison.openFreeCells(openClosed);
+        System.out.print("Szabad cellák sorszáma: ");
         for ( int i=0; i<openClosed.length; i++) {
             if ( openClosed[i] == true) {
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
-        System.out.println();
     }
 }
